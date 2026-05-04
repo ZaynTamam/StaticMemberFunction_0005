@@ -16,3 +16,10 @@ mahasiswa::mahasiswa(int nim, string nama) {
     cout << "NIM : " << nim << endl;
     cout << "Nama : " << nama << endl;
 }
+
+
+int main(){
+    mahasiswa mhs; // Pembuatan Object
+    mahasiswa mhs2(12345, "Pascal"); // memanggil constructor dengan parameter
+    return 0;
+}
